@@ -36,6 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
 .example-enter {
   opacity: 0.01;
 }
@@ -47,9 +48,15 @@
 
 .example-leave {
   opacity: 1;
+  transition: opacity 10ms ease-out;
+  height: .1%
 }
 
 .example-leave.example-leave-active {
   opacity: 0.01;
-  transition: opacity 300ms ease-in;
+  transition: opacity 10ms ease-out;
+  height: .1%
+}
+.C1{
+  height: 200px;
 }
